@@ -1,0 +1,103 @@
+body{
+    background: -webkit-radial-gradient(rgb(198, 203, 206), rgb(4, 89, 135));
+}
+
+.cabecera {
+    text-align: center;
+    height: 150px;
+    position: fixed;
+    background: rgb(4, 89, 135); 
+    border-width: 13px;
+    border-style: double double double double;
+    border-color: #ffffff;
+    display: inline-block;
+    left: 0px;
+    top: 0px;
+    z-index: 2;
+    width: 100%;
+}
+
+.foto_personal {
+    width: 110px;
+    max-width: 110px;
+    min-width: 50px;
+    justify-content: center;
+    text-align: center;
+    margin-top: 4px;
+    margin-left: 5px;
+}
+.name{
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    top: -110px;
+    font-size: 70px;
+    color: rgb(255, 255, 255);
+    font-family:  "Caveat";
+    font-style: oblique;
+}
+
+.logos{
+    display: flex;
+    width: 50px;
+    margin: 10px;
+}
+
+.buttom-header{
+    background: rgb(4, 89, 135); 
+    border-radius: 15px;
+    font-size: 35px;
+    cursor: pointer;
+    width: 370px;
+    display: inline;
+    justify-content: center;
+}
+.bottom-ppal{ /*div contenedor de los botones*/
+    margin-top: 160px;
+    margin-bottom: 30px;
+    gap: 10px;
+    justify-content: center;
+    left: 695px;
+    width: 100%;
+    display: flex;
+    color: rgb(255, 255, 255);
+}
+
+.buttom-perfil{
+    -webkit-border-radius: 28px;
+    -moz-border-radius: 28px;
+    border-radius: 15px;
+    border-color: black;
+    width: 100%;
+    display: flex;
+    color: rgb(0, 0, 0);
+    margin-top: 15px;
+}
+
+.Datos-Personales{
+    width: 30%;
+    -webkit-border-radius: 28px;
+    -moz-border-radius: 28px;
+    border-radius: 15px;
+    border-color: rgb(255, 255, 255);
+    display: inline;
+}
+
+.laboral{
+    display: block;
+    font-size: 30px;
+    width: 70%;
+    border: 2px;
+    border-color: rgb(255, 255, 255);
+    border-width: 20px;
+    border-radius: 30px;
+    border-style: double double double double;
+    margin-left: 15%;
+    margin-right: 15%;
+    color: #000000;
+}
+
+.contain{
+    display: flex;
+    margin: 30px;
+}
